@@ -1,0 +1,125 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #24283b;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: x-large;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.outline{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    border: 2px solid #c0caf5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    transform: translate(-64px, -64px);
+    transition: all 0.2s cubic-bezier(.215, .61, .355, 1);
+    pointer-events: none;
+}
+
+.cursor {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #b4f9f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    transform: translate(-8px, -8px);
+    pointer-events: none;
+}
+
+.outline.hover {
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.hover {
+    width: 16px;
+    height: 16px;
+}
+
+.outline.distortion {
+    border: 0px;
+    background: #b4f9f8;
+    background-image: url("cursor.png");
+    width: 128px;
+    height: 128px;
+    mix-blend-mode: hue;
+}
+
+.cursor.distortion {
+    display: none;
+}
+#animated-title{
+    border-radius: 35%;
+}
+.main-title {
+    padding: 20vh 0 0;
+}
+
+.main-title h2 {
+    pointer-events: none;
+    font-size: 13.895rem;
+    line-height: .875;
+    letter-spacing: -.03em;
+    font-variation-settings: "wdth" 100,"wght" 500,"slnt" 0;
+    text-align: center;
+    margin-bottom:0;
+}
+
+.main-section {
+    width: 100vw;
+    position: flex;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    background-image: var(--background);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-section h1{
+    position: absolute;
+    top: 0;
+    left: -500%;
+}
+
+
+.container {
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    font-size: 80px;
+    line-height: 120%;
+    color: #fff;
+    margin: 15px 0;
+}
+
+.about {
+    position: absolute;
+    margin: 150px 10% 100px 10%;
+}

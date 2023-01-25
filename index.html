@@ -16,11 +16,20 @@
     <header class="header">
         <div class="logo">
 
-            <a href="" data-replace="AKA Gio Renna" title="Blog" rel="noopener noreferrer">
+            <a href="" data-replace="AKA Gio Renna" title="Blog" rel="noopener noreferrer" id="logo-big">
                 <span>Giuseppe Renna</span>
+            </a>
+            <a href="" id="logo-small">
+                <span>
+                    Giuseppe
+                    <br>
+                    Renna
+                </span>
             </a>
            
         </div>
+
+        <button class="btn-menu" onclick="showMobileMenu();"> ME <br> NU</button>
 
         <ul id="menu-main-menu" class="menu">
             <li> 
@@ -41,9 +50,31 @@
         </ul>
     </header>
 
+    <div class="menu-mobile">
+        <ul>
+            <li>
+                <a href="" data-replace="About" title="About" rel="noopener noreferrer">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="" data-replace="Work" title="Work" rel="noopener noreferrer">
+                    <span>Work</span>
+                </a>
+            </li>
+            <li>
+                <a href="" data-replace="Contacts" title="Contacts" rel="noopener noreferrer">
+                    <span>Contacts</span>
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+
     <div class="main-section" id="main" style="--background: url('background.png')">
         <h1>Giuseppe Renna</h1>
-        <div class="main-title"><h2><img src="./style/main_title_extreme_wh.gif" alt="software engineer gif" id="animated-title"></h2></div>
+        <div class="main-title" id="main-title-gif"><h2><img src="./style/main_title_extreme_wh.gif" alt="software engineer gif" id="animated-title"></h2></div>
+        <div class="main-title" id="main-title-gif-mobile"><h2><img src="./style/main_title_mobile.gif" alt="software engineer mobile gif" id="animated-title"></h2></div>
     </div>
 
     <div class="container">
@@ -54,13 +85,19 @@
             In my free time I'm always working on my personal projects.<br>
             Give a scroll if you want to know more✌🏻<br>
         </div>
-        <div class="work">
-
+    <!-- <div class="work-list">
+            <a class="work-item" href="https://radioactivecrocsclub.com/" title="Radioactive Crocs Club" target="_blank" rel="noreferrer noopener nofollow" draggable="false">
+                <h3 class="work-title"><span data-words="3" data-hover="Radioactive">Radioactive</span> 
+            </a>
         </div>
-        <div class="contacts">
-
-        </div>
+    -->
     </div>
+    
+    
+    <div class="contacts">
+
+    </div>
+    
 
 
     <footer class="footer">

@@ -116,7 +116,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "E-Sporstify",
+      title: "E-Sportsify",
       href: "https://e-sportsify.com",
       dates: "Oct 2024 - Present",
       active: true,

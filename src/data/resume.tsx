@@ -15,13 +15,16 @@ export const DATA = {
   skills: [
     "AWS",
     "Python",
+    "SQL",
     "Postgres",
     "Docker",
+    "Django",
+    "Flask",
+    "Java",
     "React",
     "Next.js",
     "Typescript",
-    "Node.js",
-    "Java",
+    "Node.js"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },

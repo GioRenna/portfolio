@@ -141,32 +141,6 @@ export const DATA = {
       image: "",
       video: "/e-sportsify.mp4",
     },
-    {
-      title: "FixTheBet",
-      href: "https://fixthebet.com",
-      dates: "August 2024 - Present",
-      active: true,
-      description:
-        "The power of artificial intelligence and data analysis to bet consciously and strategically.",
-      technologies: [
-        "Django",
-        "React",
-        "PostgreSQL",
-        "Typescript",
-        "TailwindCSS",
-        "Stripe",
-        "llama",
-      ],
-      links: [
-        {
-          type: "SaaS",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "/ads_portfolio.mp4",
-    },
   ],
   hackathons: [
     {

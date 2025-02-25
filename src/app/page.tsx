@@ -124,8 +124,8 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a two of my
-                  favorites.
+                  websites to complex web applications.
+                  This is an example of a project.
                 </p>
               </div>
             </div>

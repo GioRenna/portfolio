@@ -20,7 +20,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">INTRODUCTION</h2>
         <p>
-          This Privacy Policy explains how TaskUnblocker ("we", "our", or "us") handles your information when you use our Chrome extension. 
+          This Privacy Policy explains how TaskUnblocker (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) handles your information when you use our Chrome extension. 
           We are committed to protecting your privacy and being transparent about our data practices.
         </p>
 
@@ -46,7 +46,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">DATA STORAGE AND RETENTION</h2>
         <p>
-          All data collected by TaskUnblocker is stored locally on your device using Chrome's storage API. 
+          All data collected by TaskUnblocker is stored locally on your device using Chrome&apos;s storage API. 
           Some data may be synchronized across your devices if you are signed into Chrome and have enabled sync.
         </p>
         <p>We do not:</p>
@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
           <li><strong>Right to Rectification</strong>: You can modify your tasks and settings at any time.</li>
           <li><strong>Right to Erasure</strong>: You can delete tasks, clear settings, or uninstall the extension to remove your data.</li>
           <li><strong>Right to Restrict Processing</strong>: Since all processing occurs locally, you can disable the extension to stop processing.</li>
-          <li><strong>Right to Data Portability</strong>: Your data is stored in Chrome's storage and may be synchronized across your devices if you use Chrome sync.</li>
+          <li><strong>Right to Data Portability</strong>: Your data is stored in Chrome&apos;s storage and may be synchronized across your devices if you use Chrome sync.</li>
         </ul>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">COOKIES AND TRACKING</h2>
@@ -79,14 +79,14 @@ export default function PrivacyPolicyPage() {
           TaskUnblocker does not use cookies or any third-party tracking technologies.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">CHILDREN'S PRIVACY</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">CHILDREN&apos;S PRIVACY</h2>
         <p>
           TaskUnblocker does not knowingly collect information from children under 13 years of age.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">CHANGES TO THIS PRIVACY POLICY</h2>
         <p>
-          We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+          We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last Updated&quot; date.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">CONTACT US</h2>
